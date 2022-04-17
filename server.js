@@ -23,3 +23,5 @@ const users = [
 server.get("/api/user", (req,res) =>{
     res.json(users);
 });
+
+//user정보를 user라는 상수에 담아서 get을 통해 localhost2000에 띄우는 연습용 코드
